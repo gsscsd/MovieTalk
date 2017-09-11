@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="header">
+    <text class="h1">智障电影票查询v1.0</text>
+    <text class="h1content">××××××××××国科大出品××××××××××</text>
+  </view>
+  <view class="section" bindtap="bindViewTap">
+    <view class="button">
+      <text>调戏客服</text>
+      <text>></text>
+    </view>
+  </view>
+</view>

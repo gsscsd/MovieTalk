@@ -1,0 +1,35 @@
+{
+  "debug": true,
+  "pages":[
+    "pages/douban/in_theathers/in_theathers",
+    "pages/douban/coming_soon/coming_soon",
+    "pages/douban/detail/detail",
+    "pages/feedback/index",
+    "pages/about/index"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#ff9b6e",
+    "navigationBarTitleText": "智障电影查询",
+    "navigationBarTextStyle":"#ffffff",
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#efeff4",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#fafafa",
+    "list": [{
+      "pagePath": "pages/douban/in_theathers/in_theathers",
+      "iconPath": "images/coming.png",
+      "selectedIconPath": "images/coming-active.png",
+      "text": "热映电影"
+    }, {
+      "pagePath": "pages/about/index",
+      "text": "联系客服",
+      "iconPath": "images/icon2.png",
+      "selectedIconPath": "images/sicon2.png"
+    }]
+  }
+}
